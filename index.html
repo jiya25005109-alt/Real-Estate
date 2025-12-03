@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DreamHome Real Estate</title>
+  <style>
+    body { font-family: Arial; background: #f2f2f2; margin: 0; padding: 0; }
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    .container { padding: 20px; }
+    .property { background: white; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+    .villa-gallery { display: flex; gap: 20px; flex-wrap: wrap; }
+    .villa-gallery img { width: 48%; border-radius: 5px; }
+    img { max-width: 100%; }
+    .form { background: #fff; padding: 15px; border-radius: 5px; }
+    input, select, textarea, button { width: 100%; padding: 8px; margin-top: 10px; }
+    button { background: #28a745; color: white; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DreamHome Real Estate</h1>
+  <p>Find your perfect home</p>
+</header>
+
+<div class="container">
+
+  <h3>Search Properties</h3>
+  <form>
+    <input type="text" placeholder="Enter location">
+    <select>
+      <option>Property Type</option>
+      <option>Apartment</option>
+      <option>Villa</option>
+      <option>Plot</option>
+    </select>
+    <input type="number" placeholder="Max Price">
+[10:20 am, 03/12/2025] ChatGPT: <button>Search</button>
+  </form>
+
+  <h3>Available Listings</h3>
+
+  <div class="property">
+    <h4>2 BHK Apartment – Mumbai</h4>
+    <img src="house1.jpg" alt="Apartment">
+    <p>Location: Andheri West<br>Price: ₹75 Lakhs</p>
+  </div>
+
+  <div class="property">
+    <h4>3 BHK Villas – Pune</h4>
+    <div class="villa-gallery">
+      <img src="villa1.jpg" alt="Villa 1">
+      <img src="villa2.jpg" alt="Villa 2">
+    </div>
+    <p>Location: Baner<br>Price: ₹1.2 Crores each</p>
+  </div>
+
+  <h3>Send an Inquiry</h3>
+  <form class="form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+</div>
+
+</body>
+</html>
